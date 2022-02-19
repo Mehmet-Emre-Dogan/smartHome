@@ -7,3 +7,5 @@ A custom firmware for sonoff basic r2 (v1.4) for better integration with the hom
 ## References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
  - https://randomnerdtutorials.com/esp8266-ota-updates-with-arduino-ide-over-the-air/
+ - https://randomnerdtutorials.com/reprogram-sonoff-smart-switch-with-web-server/
+ - https://esphome.io/devices/sonoff_basic.html
