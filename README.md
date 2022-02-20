@@ -7,12 +7,26 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi alias, amet i
 # System Details
 ## HTML to INO & INO to HTML
 These python scripts convert HTML files to Arduino IDE compatible strings or vice versa.
+
 ## Custom Sonoff (customSonoff)
 Custom firmware for sonoff basic r2 (v1.4) for better integration with the home automation system. My sonoff includes the ESP8285 module, which is the same as ESP8266, except the ESP8285's flash memory is 1 MB. Hence, an ESP8266 can be used as debugging device.
+
+### Schematic
+
 ![debugSchematic.png](./customSonoff/debugSchematic.png)
+
+### Webpage
+
+![customSonoffWebpage.png](./customSonoff/customSonoffWebpage.png)
 
 ## Lamp Controller (lampController)
 The system consists of two sub-units: The control box and the relay boxes. The system is designed in two subunits to increase safety by eliminating the need for long power (230V AC) cords. The long wires installed all across the room only carry a 5V DC signal, which is safe.
+
+### Schematic
+
+### Webpage
+
+![lampControllerWebpage.png](./lampController/lampControllerWebpage.png)
 
 ### Control Box
 The control box contains an ESP8266 as a processor and a 4-way relay module to generate signals for the relay boxes. In addition, there exists a green LED as a power indicator.
@@ -50,6 +64,20 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
 <p align="center">On</p>
 
 ![relayBoxOn.jpeg](./lampController/images/relayBoxOn.jpeg)
+
+###Images from the setup
+
+<p align="center">Bookcase Lamp</p>
+
+![controlBoxAndRelayBox.jpeg](.lampController/images/controlBoxAndRelayBox.jpeg)
+
+<p align="center">Floor Lamp</p>
+
+![floorLampRelayBox.jpeg](./lampController/images/floorLampRelayBox.jpeg)
+
+<p align="center">Lampshade</p>
+
+![lampshadeRelayBoxInPlace.jpeg](.images/lampshadeRelayBoxInPlace.jpeg)
 
 
 # References
