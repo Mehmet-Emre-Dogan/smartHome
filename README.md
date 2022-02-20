@@ -24,6 +24,8 @@ The system consists of two sub-units: The control box and the relay boxes. The s
 
 ### Schematic
 
+![schematic.png](./lampController/schematic.png)
+
 ### Webpage
 
 ![lampControllerWebpage.png](./lampController/lampControllerWebpage.png)
