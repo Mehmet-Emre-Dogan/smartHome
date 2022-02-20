@@ -18,12 +18,15 @@ The system consists of two sub-units: The control box and the relay boxes. The s
 The control box contains an ESP8266 as a processor and a 4-way relay module to generate signals for the relay boxes. In addition, there exists a green LED as a power indicator.
 
 <p align="center">Top</p>
+
 ![controlBoxTop.jpeg](./lampController/images/controlBoxTop.jpeg)
 
 <p align="center">Left</p>
+
 ![controlBoxLeft.jpeg](./lampController/images/controlBoxLeft.jpeg)
 
 <p align="center">Right</p>
+
 ![controlBoxRight.jpeg](./lampController/images/controlBoxRight.jpeg)
 
 
@@ -33,6 +36,7 @@ The +5V of the signal cable is connected to the VCC on the relay module, and bot
 By doing so, the output receptacle is energized when a 5V supply is connected to the signal plug.
  
 <p align="center">Right</p>
+
 ![relayBoxAnnotated.jpeg](./images/relayBoxAnnotated.jpeg)
 
 # References
