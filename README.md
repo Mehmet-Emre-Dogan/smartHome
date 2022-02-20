@@ -35,9 +35,22 @@ The control box contains an ESP8266 as a processor and a 4-way relay module to g
 - The +5V of the signal cable is connected to the VCC on the relay module, and both the signal and GND of the relay are connected to the ground of the signal wire. 
 By doing so, the output receptacle is energized when a 5V supply is connected to the signal plug.
  
-<p align="center">Right</p>
+<p align="center">Explanation</p>
 
 ![relayBoxAnnotated.jpeg](./images/relayBoxAnnotated.jpeg)
+
+<p align="center">Inside</p>
+
+![relayBoxInside.jpeg](./lampController/images/relayBoxInside.jpeg)
+
+<p align="center">Off</p>
+
+![relayBoxOff.jpeg](./lampController/images/relayBoxOff.jpeg)
+
+<p align="center">On</p>
+
+![relayBoxOn.jpeg](./lampController/images/relayBoxOn.jpeg)
+
 
 # References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
