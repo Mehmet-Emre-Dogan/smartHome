@@ -17,13 +17,13 @@ Custom firmware for sonoff basic r2 (v1.4) for better integration with the home 
 
 ### Webpage
 
+![customSonoffWebpage.png](./customSonoff/customSonoffWebpage.png)
+
+
+### Debug Setup
 ![debugSetup1.jpeg](./customSonoff/debugSetup1.jpeg)
 
 ![debugSetup2.jpeg](./customSonoff/debugSetup2.jpeg)
-
-### Setup
-
-![customSonoffWebpage.png](./customSonoff/customSonoffWebpage.png)
 
 ## Lamp Controller (lampController)
 The system consists of two sub-units: The control box and the relay boxes. The system is designed in two subunits to increase safety by eliminating the need for long power (230V AC) cords. The long wires installed all across the room only carry a 5V DC signal, which is safe.
