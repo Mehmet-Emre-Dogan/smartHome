@@ -4,6 +4,7 @@ Control of the home appliances via local network and any smart device
 These are the python scripts to convert HTML files to Arduino IDE compatible strings or vice versa.
 ## Custom Sonoff (customSonoff)
 Custom firmware for sonoff basic r2 (v1.4) for better integration with the home automation system. My sonoff includes the ESP8285 module, which is the same as ESP8266, except the ESP8285's flash memory is 1 MB. Hence, an ESP8266 can be used as debugging device.
+
 ![debugSchematic.png](./customSonoff/debugSchematic.png)
 
 ## Lamp Controller (lampController)
