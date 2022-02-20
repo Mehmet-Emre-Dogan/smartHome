@@ -1,38 +1,35 @@
 # smartHome
-Control of the home appliances via local network and any smart device
+	Control of the home appliances via local network and any smart device
 
 # Setup
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi alias, amet iste porro molestias deserunt, velit iusto mollitia ab fugiat qui dolore excepturi similique recusandae earum officiis quam ut sed quod doloribus ex maxime! Perferendis veritatis quas a sed laudantium iste recusandae ipsam eius voluptatibus consequuntur nulla repudiandae, perspiciatis magni fugiat.  
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi alias, amet iste porro molestias deserunt, velit iusto mollitia ab fugiat qui dolore excepturi similique recusandae earum officiis quam ut sed quod doloribus ex maxime! Perferendis veritatis quas a sed laudantium iste recusandae ipsam eius voluptatibus consequuntur nulla repudiandae, perspiciatis magni fugiat.  
 
 # System Details
 ## HTML to INO & INO to HTML
-These python scripts convert HTML files to Arduino IDE compatible strings or vice versa.
+	These python scripts convert HTML files to Arduino IDE compatible strings or vice versa.
 ## Custom Sonoff (customSonoff)
 Custom firmware for sonoff basic r2 (v1.4) for better integration with the home automation system. My sonoff includes the ESP8285 module, which is the same as ESP8266, except the ESP8285's flash memory is 1 MB. Hence, an ESP8266 can be used as debugging device.
 ![debugSchematic.png](./customSonoff/debugSchematic.png)
 
 ## Lamp Controller (lampController)
-The system consists of two sub-units: The control box and the relay boxes. The system is designed in two subunits to increase safety by eliminating the need for long power (230V AC) cords. The long wires installed all across the room only carry a 5V DC signal, which is safe.
+	The system consists of two sub-units: The control box and the relay boxes. The system is designed in two subunits to increase safety by eliminating the need for long power (230V AC) cords. The long wires installed all across the room only carry a 5V DC signal, which is safe.
 
 ### Control Box
 The control box contains an ESP8266 as a processor and a 4-way relay module to generate signals for the relay boxes. In addition, there exists a green LED as a power indicator.
 
 <p align="center">Top</p>
-
 ![controlBoxTop.jpeg](./lampController/images/controlBoxTop.jpeg)
 
 <p align="center">Left</p>
-
 ![controlBoxLeft.jpeg](./lampController/images/controlBoxLeft.jpeg)
 
 <p align="center">Right</p>
-
 ![controlBoxRight.jpeg](./lampController/images/controlBoxRight.jpeg)
 
 
 ### Relay Box
-The phase cable coming from the wall socket is connected to the common pin of the relay, and the output phase cable is connected to the normally open pin, i.e., turned off when not excited, of the relay. The neutral cable directly goes from the wall plug to the output receptacle.
-The +5V of the signal cable is connected to the VCC on the relay module, and both the signal and GND of the relay are connected to the ground of the signal wire. 
+	The phase cable coming from the wall socket is connected to the common pin of the relay, and the output phase cable is connected to the normally open pin, i.e., turned off when not excited, of the relay. The neutral cable directly goes from the wall plug to the output receptacle.
+	The +5V of the signal cable is connected to the VCC on the relay module, and both the signal and GND of the relay are connected to the ground of the signal wire. 
 By doing so, the output receptacle is energized when a 5V supply is connected to the signal plug.
  
 <p align="center">Right</p>
