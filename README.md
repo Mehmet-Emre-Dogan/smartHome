@@ -37,7 +37,7 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
  
 <p align="center">Explanation</p>
 
-![relayBoxAnnotated.jpeg](.lampController/images/relayBoxAnnotated.jpeg)
+![relayBoxAnnotated.jpeg](./lampController/images/relayBoxAnnotated.jpeg)
 
 <p align="center">Inside</p>
 
