@@ -65,11 +65,11 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
 
 ![relayBoxOn.jpeg](./lampController/images/relayBoxOn.jpeg)
 
-###Images from the setup
+### Images from the setup
 
 <p align="center">Bookcase Lamp</p>
 
-![controlBoxAndRelayBox.jpeg](.lampController/images/controlBoxAndRelayBox.jpeg)
+![controlBoxAndRelayBox.jpeg](./lampController/images/controlBoxAndRelayBox.jpeg)
 
 <p align="center">Floor Lamp</p>
 
@@ -77,7 +77,7 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
 
 <p align="center">Lampshade</p>
 
-![lampshadeRelayBoxInPlace.jpeg](.images/lampshadeRelayBoxInPlace.jpeg)
+![lampshadeRelayBoxInPlace.jpeg](./lampController/images/lampshadeRelayBoxInPlace.jpeg)
 
 
 # References
