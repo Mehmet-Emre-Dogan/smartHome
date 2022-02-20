@@ -17,6 +17,12 @@ Custom firmware for sonoff basic r2 (v1.4) for better integration with the home 
 
 ### Webpage
 
+![debugSetup1.jpeg](.customSonoff/debugSetup1.jpeg)
+
+![debugSetup2.jpeg](.customSonoff/debugSetup2.jpeg)
+
+### Setup
+
 ![customSonoffWebpage.png](./customSonoff/customSonoffWebpage.png)
 
 ## Lamp Controller (lampController)
