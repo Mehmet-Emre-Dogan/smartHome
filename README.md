@@ -93,3 +93,7 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
  - https://randomnerdtutorials.com/esp8266-ota-updates-with-arduino-ide-over-the-air/
  - https://randomnerdtutorials.com/reprogram-sonoff-smart-switch-with-web-server/
  - https://esphome.io/devices/sonoff_basic.html
+
+ --> External EEPROM reading-writing functions are adopted from the link below:
+ - https://dronebotworkshop.com/eeprom-arduino/
+ - https://arduino-projects4u.com/arduino-24c16/
