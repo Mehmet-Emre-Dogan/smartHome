@@ -135,7 +135,11 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 
 ![fans and ambiance](./dcPowerbox/images/fansAndAmbiance.jpeg)
 
+<div align="center">
+<p align="center">Music Visualizer</p>
+
 ![music visualizer](./dcPowerbox/images/musicVisualizer.jpeg)
+</div>
 
 ![adapters](./dcPowerbox/images/adapters.jpeg)
 
