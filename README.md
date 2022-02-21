@@ -87,6 +87,17 @@ By doing so, the output receptacle is energized when a 5V supply is connected to
 
 ![lampshadeRelayBoxInPlace.jpeg](./lampController/images/lampshadeRelayBoxInPlace.jpeg)
 
+## DC Powerbox (dcPowerbox)
+The system handles the low-voltage peripherals in the room. It has 4 outlets for the Music Visualizer, the Ambiance Light, the Fans, and the Laptop Cooler. The system has an external IC2 EEPROM to store the relay states. The python scripts in the AUTOMATION folder are adjusted to run at startup, shutdown, sleep and wake events of the PC. Moreover, for manual control, either the scripts in the MANUAL folder or the web pages may be used.
+
+### Schematic
+
+![schematicPowerbox.png](./dcPowerbox/schematicPowerbox.png)
+
+### Webpage
+
+![powerboxWebpage.png](./dcPowerbox/powerboxWebpage.png)
+
 
 # References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
