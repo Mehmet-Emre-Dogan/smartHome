@@ -96,8 +96,40 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 
 ### Webpage
 
-![powerboxWebpage.png](./dcPowerbox/powerboxWebpage.png)
+<p align="center">Top</p>
 
+![top](./dcPowerbox/images/top.jpeg)
+
+<p align="center">In</p>
+
+![in](./dcPowerbox/images/in.jpeg)
+
+<p align="center">Front</p>
+
+![front](./dcPowerbox/images/front.jpeg)
+
+<p align="center">Left</p>
+
+![left](./dcPowerbox/images/left.jpeg)
+
+<p align="center">Right</p>
+
+![right](./dcPowerbox/images/right.jpeg)
+
+<p align="center">Back</p>
+
+![back](./dcPowerbox/images/back.jpeg)
+
+
+### Images from the setup
+
+![installed](./dcPowerbox/images/powerboxInstalled.jpeg)
+
+![fans and ambiance](./dcPowerbox/images/fansAndAmbiance.jpeg)
+
+![music visualizer](./dcPowerbox/images/musicVisualizer.jpeg)
+
+![adapters](./dcPowerbox/images/adapters.jpeg)
 
 # References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
