@@ -114,6 +114,8 @@ void loop() {
             client.println("Connection: close");
             client.println();
 
+            bool isChanged = true;
+
             // turns the GPIOs on and off
             if (header.indexOf("GET /pin1/on") >= 0)
             {
@@ -142,6 +144,9 @@ void loop() {
             }
             else if (header.indexOf("GET /pin4/off") >= 0) {
               relayStates[3] = 1;
+            }
+            else{
+              isChanged = false;
             }
             
            for(int j = 0; j < NUM_RELAYS; j++){
@@ -174,8 +179,12 @@ void loop() {
               client.println("<a href='/pin" +  (String) (j + 1) + hrefs[relayStates[j]] + "'><button class='button" + buttons[relayStates[j]] + "'>" + commands[relayStates[j]] + "</button></a> <p></p>");
 
               client.println("</div>");
-            } 
-
+            }
+            
+            if (isChanged){
+              client.println("<meta http-equiv='refresh' content='0; URL=/'>"); // Return to root page to avoid accidental refresh toggles
+            }
+              
             client.println("</body></html>");
 
             // The HTTP response ends with another blank line

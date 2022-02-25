@@ -126,12 +126,17 @@ void loop() {
             client.println("Connection: close");
             client.println();
 
+            bool isChanged = true;
+            
             // turns the GPIOs on and off
             if (header.indexOf("GET /pin1/on") >= 0){
               relayState = 1;
             }
             else if (header.indexOf("GET /pin1/off") >= 0){
               relayState = 0;
+            }
+            else{
+              isChanged = false;
             }
 
             if(digitalRead(RELAY) != relayState){
@@ -165,6 +170,10 @@ void loop() {
               client.println("            <a href='/pin1/on'><button class='button button2'>TURN ON</button></a> <p></p>");
             }
             client.println("</div>");
+
+            if (isChanged){
+              client.println("<meta http-equiv='refresh' content='0; URL=/'>"); // Return to root page to avoid accidental refresh toggles
+            }
 
             client.println("</body></html>");
 
