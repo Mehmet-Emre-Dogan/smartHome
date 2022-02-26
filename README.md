@@ -8,14 +8,17 @@ Control of the home appliances via local network and any smart device
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
 - Made the connections as follows:
- | sonoff | pc |
- | --- | --- |
- | GND | FTDI GND|
- | TX | FTDI RX |
- | RX | FTDI TX |
- | 3V3 | Regulator Vout Positive |
 
+<div align="center">
 
+| sonoff | pc |
+| --- | --- |
+| GND | FTDI GND|
+| TX | FTDI RX |
+| RX | FTDI TX |
+| 3V3 | Regulator Vout Positive |
+
+</div>
 
 # System Details
 ## HTML to INO & INO to HTML
