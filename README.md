@@ -4,9 +4,12 @@ Control of the home appliances via local network and any smart device
 # Setup
 ## Custom Sonoff (customSonoff)
 - Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl)
-- If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)to supply 3.3 V.
+- If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module) ) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
+- Connect the FTDI module to PC alone.
+- If PC could not find its driver automatically, install its drivers manually.
+- After the board is recognized by the pc, disconnect the FTDI from PC.
 - Made the connections as follows:
 
 <div align="center">
@@ -16,9 +19,21 @@ Control of the home appliances via local network and any smart device
 | GND | FTDI GND|
 | TX | FTDI RX |
 | RX | FTDI TX |
-| 3V3 | Regulator Vout Positive |
+| 3V3 | 3.3V (Regulator Vout Positive) |
 
 </div>
+
+- Make sure the regulator and PC grounds are connected (If you are using PC to power the regulator, it is OK too since the grounds meet at the motherboard)
+- Plug back FTDI in to PC
+- Press the button on sonoff
+- While keeping pressed, plug the regulator.
+- Release the button after 2-3 seconds.
+- Open Arduino IDE
+- Select board "Generic ESP8266 Module" (even if your sonoff have ESP8285 chip or you see ITEAD Sonoff on the menu; do not select them)
+- Make sure the flash mode is selected as "DOUT"
+- Select erase flash "All Flash Contents"
+- Select your COM port
+- Upload the sketch
 
 # System Details
 ## HTML to INO & INO to HTML
