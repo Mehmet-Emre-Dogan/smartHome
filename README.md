@@ -3,8 +3,8 @@ Control of the home appliances via local network and any smart device
 
 # Setup
 ## Custom Sonoff (customSonoff)
-- Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl)
-- If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module) ) to supply 3.3 V.
+- Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl))
+- If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
 - Connect the FTDI module to PC alone.
@@ -34,6 +34,32 @@ Control of the home appliances via local network and any smart device
 - Select erase flash "All Flash Contents"
 - Select your COM port
 - Upload the sketch
+- After uploading the first version of the firmware via cable, thanks to the Arduino OTA, now you can upload new firmware wirelessly by selecting the corresponding network port from Arduino IDE.
+
+
+### Images
+<p align="center">FT23RL close-up</p>
+
+![FT232RL.jpeg](./customSonoff/images/FT232RL.jpeg)
+
+<p align="center">LM2596 Buck Converter</p>
+
+![buckConverter.jpeg](./customSonoff/images/buckConverter.jpeg)
+
+<p align="center">FT232RL</p>
+
+![uploadSetup.jpeg](./customSonoff/images/uploadSetup.jpeg)
+
+<p align="center">Inside Sonoff</p>
+
+![sonoffInside.jpeg](./customSonoff/images/sonoffInside.jpeg)
+
+<p align="center">Headers</p>
+
+![sonoffHeaders.jpeg](./customSonoff/images/sonoffHeaders.jpeg)
+
+## Lamp Controller (lampController) & DC Powerbox (dcPowerbox)
+Regular ESP8266 code uploading procedure. Just select the CPU frequency 160 MHz for speed.
 
 # System Details
 ## HTML to INO & INO to HTML
