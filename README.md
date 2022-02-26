@@ -209,3 +209,6 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
  --> External EEPROM reading-writing functions are adopted from the link below:
  - https://dronebotworkshop.com/eeprom-arduino/
  - https://arduino-projects4u.com/arduino-24c16/
+
+ -> Mobile app is inpired from here:
+ - https://resultuzen.com.tr/blog/index.php/2019/02/09/nodemcu-8/
