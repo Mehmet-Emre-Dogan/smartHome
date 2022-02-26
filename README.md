@@ -59,7 +59,7 @@ Control of the home appliances via local network and any smart device
 ![sonoffHeaders.jpeg](./customSonoff/images/sonoffHeaders.jpeg)
 
 ## Lamp Controller (lampController) & DC Powerbox (dcPowerbox)
-Regular ESP8266 code uploading procedure. Just select the CPU frequency 160 MHz for speed.
+- Regular ESP8266 code uploading procedure. Just select the CPU frequency 160 MHz for speed.
 
 # System Details
 ## HTML to INO & INO to HTML
