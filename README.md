@@ -2,7 +2,20 @@
 Control of the home appliances via local network and any smart device
 
 # Setup
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem animi alias, amet iste porro molestias deserunt, velit iusto mollitia ab fugiat qui dolore excepturi similique recusandae earum officiis quam ut sed quod doloribus ex maxime! Perferendis veritatis quas a sed laudantium iste recusandae ipsam eius voluptatibus consequuntur nulla repudiandae, perspiciatis magni fugiat.  
+## Custom Sonoff (customSonoff)
+Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl)
+If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)to supply 3.3 V.
+Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
+Solder headers to sonoff (see picture below)
+Made the connections as follows:
+| sonoff | pc |
+| --- | --- |
+| GND | FTDI GND|
+| TX | FTDI RX |
+| RX | FTDI TX |
+| 3V3 | Regulator Vout Positive |
+
+
 
 # System Details
 ## HTML to INO & INO to HTML
