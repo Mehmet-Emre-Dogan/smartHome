@@ -201,20 +201,25 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 ![adapters](./dcPowerbox/images/adapters.jpeg)
 
 # Mobile Side
-<div align="center">
 
 ## Webpage Seen on Android Chrome
 
+<div align="center">
+
 ![chromeAndroid](./lampController/mobileWebpage.jpeg)
+
+</div>
 
 ## Mobile Control App for Android
 
-
 (Download](https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/APP/ControllerEng.apk)
+
+<div align="center">
 
 ![ss](./APP/appSs.jpeg)
 
 </div>
+
 
 # References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
