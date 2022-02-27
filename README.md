@@ -225,7 +225,7 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 - Install the on and off apps.
 - <a id="raw-url" href="https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/AUTOMATION/mobile/on/lamp_on.apk">Download On App</a>
 - <a id="raw-url" href="https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/AUTOMATION/mobile/off/lamp_off.apk">Download Off App</a>
-- Create a custom routine with your mobile assistant app to start on and off apps when you say "turn on" and "turn off" respectively.
+- Create custom routines with your mobile assistant app to start on and off apps when you say "turn on" and "turn off" respectively.
 
 <div align="center">
 
