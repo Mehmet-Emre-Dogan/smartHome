@@ -7,9 +7,9 @@ Control of the home appliances via local network and any smart device
 - If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
-- Connect the FTDI module to PC alone.
-- If PC could not find its driver automatically, install its drivers manually.
-- After the board is recognized by the pc, disconnect the FTDI from PC.
+- Connect the FTDI module to the PC alone.
+- If the PC could not find its driver automatically, install its drivers manually.
+- After the board is recognized by the pc, disconnect the FTDI from the PC.
 - Made the connections as follows:
 
 <div align="center">
@@ -23,7 +23,7 @@ Control of the home appliances via local network and any smart device
 
 </div>
 
-- Make sure the regulator and PC grounds are connected (If you are using PC to power the regulator, it is OK too since the grounds meet at the motherboard)
+- Make sure the regulator and PC grounds are connected (If you are using a PC to power the regulator, it is OK too since the grounds meet at the motherboard)
 - Plug back FTDI in to PC
 - Press the button on sonoff
 - While keeping pressed, plug the regulator.
@@ -200,6 +200,27 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 
 ![adapters](./dcPowerbox/images/adapters.jpeg)
 
+# Mobile Side
+
+## Webpage Seen on Android Chrome
+
+<div align="center">
+
+![chromeAndroid](./lampController/mobileWebpage.jpeg)
+
+</div>
+
+## Mobile Control App for Android
+
+<div align="center">
+
+<a id="raw-url" href="https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/APP/ControllerEng.apk">Download Controller App</a>
+
+![ss](./APP/appSs.jpeg)
+
+</div>
+
+
 # References
  - https://mytectutor.com/esp8266-nodemcu-relay-control-from-web-page-over-wifi/
  - https://randomnerdtutorials.com/esp8266-ota-updates-with-arduino-ide-over-the-air/
@@ -210,5 +231,5 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
  - https://dronebotworkshop.com/eeprom-arduino/
  - https://arduino-projects4u.com/arduino-24c16/
 
- -> Mobile app is inpired from here:
+ --> Mobile app is inspired from here:
  - https://resultuzen.com.tr/blog/index.php/2019/02/09/nodemcu-8/
