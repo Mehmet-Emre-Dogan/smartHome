@@ -1,5 +1,5 @@
 # smartHome
-Control of the home appliances via local network and any smart device<br/>
+Control of the home appliances via local network using any smart device<br/>
 
 :warning: **CAUTION:** In this project, some parts require AC mains power. If you are not an electrician, do not get involved in these parts yourself and make an electrician do them for you.<br/>
 :warning: **DİKKAT:** Bu projede, bazı bölümler AC şebeke gücü içerir. Elektrikçi değilseniz bu bölümleri kendi başınıza yapmaya çalışmayın ve bir elektrikçiye yaptırın.
@@ -11,10 +11,10 @@ Control of the home appliances via local network and any smart device<br/>
 - If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
-- Connect the FTDI module to the PC alone.
+- Connect the FTDI module to the PC alone, i.e., without sonoff.
 - If the PC could not find its driver automatically, install its drivers manually.
-- After the board is recognized by the pc, disconnect the FTDI from the PC.
-- Made the connections as follows:
+- After the board is recognized by the PC, disconnect the FTDI from the PC.
+- Make the connections as follows:
 
 <div align="center">
 
@@ -27,7 +27,7 @@ Control of the home appliances via local network and any smart device<br/>
 
 </div>
 
-- Make sure the regulator and PC grounds are connected (If you are using a PC to power the regulator, it is OK too since the grounds meet at the motherboard)
+- Make sure the regulator and PC grounds are connected (If you are using the PC to power the regulator also, it is OK too since the grounds meet at the PC motherboard)
 - Plug back FTDI in to PC
 - Press the button on sonoff
 - While keeping pressed, plug the regulator.
