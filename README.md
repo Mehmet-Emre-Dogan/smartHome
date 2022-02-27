@@ -11,6 +11,7 @@ Control of the home appliances via local network using any smart device<br/>
 - If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
+- Make sure the FTDI module is adjusted to 3.3V
 - Connect the FTDI module to the PC alone, i.e., without sonoff.
 - If the PC could not find its driver automatically, install its drivers manually.
 - After the board is recognized by the PC, disconnect the FTDI from the PC.
