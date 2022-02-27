@@ -1,11 +1,11 @@
 # smartHome
 Control of the home appliances via local network and any smart device<br/>
-**CAUTION:** In this project, some parts require AC mains power. If you are not an electrician, do not get involved in these parts yourself and make an electrician do them for you.<br/>
-**DİKKAT:** Bu projede, bazı bölümler AC şebeke gücü içerir. Elektrikçi değilseniz bu bölümleri kendi başınıza yapmaya çalışmayın ve bir elektrikçiye yaptırın.
+:warning: **CAUTION:** In this project, some parts require AC mains power. If you are not an electrician, do not get involved in these parts yourself and make an electrician do them for you.<br/>
+:warning: **DİKKAT:** Bu projede, bazı bölümler AC şebeke gücü içerir. Elektrikçi değilseniz bu bölümleri kendi başınıza yapmaya çalışmayın ve bir elektrikçiye yaptırın.
 
 # Setup
 ## Custom Sonoff (customSonoff)
-- **CAUTION:** Before breaking apart the sonoff, make sure it is disconnected from AC mains. Never energize the sonoff when it is disassembled.
+- :warning: **CAUTION:** Before breaking apart the sonoff, make sure it is disconnected from AC mains. Never energize the sonoff when it is disassembled.
 - Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl))
 - If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
