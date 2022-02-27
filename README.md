@@ -1,5 +1,6 @@
 # smartHome
 Control of the home appliances via local network and any smart device<br/>
+
 :warning: **CAUTION:** In this project, some parts require AC mains power. If you are not an electrician, do not get involved in these parts yourself and make an electrician do them for you.<br/>
 :warning: **DİKKAT:** Bu projede, bazı bölümler AC şebeke gücü içerir. Elektrikçi değilseniz bu bölümleri kendi başınıza yapmaya çalışmayın ve bir elektrikçiye yaptırın.
 
