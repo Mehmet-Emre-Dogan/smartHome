@@ -7,7 +7,7 @@ Control of the home appliances via local network using any smart device<br/>
 # Setup
 ## Custom Sonoff (customSonoff)
 - :warning: **CAUTION:** Before breaking apart the sonoff, make sure it is disconnected from AC mains. Never energize the sonoff when it is disassembled.
-- Buy a USB to TTL converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl))
+- Buy a USB to UART converter board (such as [FT232RL](https://www.google.com/search?q=ft232rl+usb+to+ttl))
 - If it does not have a 3.3 V regulator embedded, buy an external regulator (such as [LM2596 adjustable buck converter](https://www.google.com/search?q=lm2596+module)) to supply 3.3 V.
 - Adjust the regulator to 3.3V (if it is not a fixed 3.3V regulator).
 - Solder headers to sonoff (see picture below)
