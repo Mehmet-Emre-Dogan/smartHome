@@ -212,9 +212,9 @@ The system handles the low-voltage peripherals in the room. It has 4 outlets for
 
 ## Mobile Control App for Android
 
-(Download](https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/APP/ControllerEng.apk)
-
 <div align="center">
+
+<a id="raw-url" href="https://raw.githubusercontent.com/Mehmet-Emre-Dogan/smartHome/main/APP/ControllerEng.apk">Download Controller App</a>
 
 ![ss](./APP/appSs.jpeg)
 
